@@ -1,0 +1,9 @@
+Что делать?
+- Собрать данные для заданий
+- Установить Android Studio
+- Создать проект Single Activity (Kotlin, Compose)
+- Запустить проект 
+- Начать смотреть лекции ШМР https://www.youtube.com/playlist?list=PLIh9yLdjK2YeRLnD-gJyVWIq_w-7OMv8r
+- Разобраться с Git 
+- Начать писать код
+- Написать задачки на разработку
