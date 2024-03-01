@@ -1,19 +1,26 @@
 package com.example.kk_sample
 
 import android.content.res.Resources
+import android.util.Log
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.serialization.json.Json
-import java.lang.Exception
 import java.lang.String
+
+private const val TAG = "MyActivity"
 
 class TasksRepository(val resources: Resources) {
 
-    fun loadTopics(): List<Topic> {
-        return try {
+    val topics: StateFlow<List<Topic>> get() = mutableTopics
+    private val mutableTopics = MutableStateFlow<List<Topic>>(listOf())
+
+    fun loadTopics() {
+        try {
             val dataJson = readRawResource(id = R.raw.data)
             val data = Json.decodeFromString<Topics>(dataJson)
-            data.topics
+            mutableTopics.value = data.topics
         } catch (e: Throwable) {
-            listOf()
+            Log.e(TAG, "Failed loading topics with error ${e.message}")
         }
     }
 
