@@ -17,8 +17,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             KKsampleTheme {
-                TopicsScreen(repository = repository)
-//                TasksScreen(topic = repository.topics.value.first())
+                App(repository = repository)
             }
         }
     }

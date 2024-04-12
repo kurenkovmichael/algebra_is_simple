@@ -2,143 +2,77 @@
   "topics":
   [
     {
-      "title": "Topic 1",
+      "title": "Тема 1",
       "tasks": [
         {
-          "title": "Topic 1 Task 1",
-          "formulation": [
-            "topic1-task1-formulation11",
-            "topic1-task1-formulation12",
-            "topic1-task1-formulation13"
-          ],
-          "answer": [
-            "topic1-task1-answer1",
-            "topic1-task1-answer2",
-            "topic1-task1-answer3"
-          ],
+          "title": "5 ученых из Сербии",
+          "formulation": "На конференцию приехали 5 ученых из Сербии, 7 из Хорватии и 3 из Норвегии. Каждый из них делает на конференции один доклад. Порядок докладов определяется жеребьёвкой. Найдите вероятность того, что двенадцатым окажется доклад ученого из Норвегии. \n",
+          "answer": "6,7%",
           "solutionLink": "topic1-task1-solutionLink"
         },
         {
-          "title": "Topic 1 Task 2",
-          "formulation": [
-            "topic1-task2-formulation11",
-            "topic1-task2-formulation12",
-            "topic1-task2-formulation13"
-          ],
-          "answer": [
-            "topic1-task2-answer1",
-            "topic1-task2-answer2",
-            "topic1-task2-answer3"
-          ],
+          "title": "Вика включает телевизор",
+          "formulation": "Вика включает телевизор. Телевизор включается на случайном канале. В это время по четырнадцати каналам из тридцати пяти показывают рекламу. Найдите вероятность того, что Вика попадет на канал, где реклама не идет.",
+          "answer": "topic1-task2-answer1",
           "solutionLink": "topic1-task2-solutionLink"
         },
         {
-          "title": "Topic 1 Task 3",
-          "formulation": [
-            "topic1-task3-formulation11",
-            "topic1-task3-formulation12",
-            "topic1-task3-formulation13"
-          ],
-          "answer": [
-            "topic1-task3-answer1",
-            "topic1-task3-answer2",
-            "topic1-task3-answer3"
-          ],
+          "title": "40 билетов",
+          "formulation": "В сборнике билетов по химии всего 40 билетов, в 20 из них встречается вопрос теме \"Соли\". Найдите вероятность того, что в случайно выбранном на экзамене билете школьнику достанется вопрос по теме \"Соли\".\n",
+          "answer": "topic1-task3-answer1",
+          "solutionLink": "topic1-task3-solutionLink"
+        },
+        {
+          "title": "Чемпионат по настольному теннису",
+          "formulation": "Перед началом первого тура чемпионата по настольному теннису участников разбивают на игровые пары случайным образом с помощью жребия. Всего в чемпионате участвует 26 спортсменов, среди которых 7 спортсменов из России, в том числе Георгий Бочкин. Найдите вероятность того, что в первом туре Георгий Бочкин будет играть с каким-либо спортсменом из России.",
+          "answer": "topic1-task3-answer1",
           "solutionLink": "topic1-task3-solutionLink"
         }
       ]
     },
     {
-      "title": "Topic 2",
+      "title": "Тема 2",
       "tasks": [
         {
-          "title": "Topic 2 Task 1",
-          "formulation": [
-            "topic2-task1-formulation11",
-            "topic2-task1-formulation12",
-            "topic2-task1-formulation13"
-          ],
-          "answer": [
-            "topic2-task1-answer1",
-            "topic2-task1-answer2",
-            "topic2-task1-answer3"
-          ],
-          "solutionLink": "topic2-task1-solutionLink"
+          "title": "Такси",
+          "formulation": "В фирме такси в данный момент свободно 15 машин: 2 красных, 9 желтых и 4 зеленых. По вызову выехала одна из машин, случайно оказавшаяся ближе всего к заказчице. Найдите вероятность того, что к ней приедет желтое такси.",
+          "answer": "topic1-task3-answer1",
+          "solutionLink": "topic1-task3-solutionLink"
         },
         {
-          "title": "Topic 2 Task 2",
-          "formulation": [
-            "topic2-task2-formulation11",
-            "topic2-task2-formulation12",
-            "topic2-task2-formulation13"
-          ],
-          "answer": [
-            "topic2-task2-answer1",
-            "topic2-task2-answer2",
-            "topic2-task2-answer3"
-          ],
-          "solutionLink": "topic2-task2-solutionLink"
+          "title": "Сумки",
+          "formulation": "Фабрика выпускает сумки. В среднем на 200 качественных сумок приходится двадцать сумок с дефектами. Найдите вероятность того, что купленная сумка окажется качественной. Результат округлите до сотых.\n",
+          "answer": "topic1-task3-answer1",
+          "solutionLink": "topic1-task3-solutionLink"
         },
         {
-          "title": "Topic 2 Task 3",
-          "formulation": [
-            "topic2-task3-formulation11",
-            "topic2-task3-formulation12",
-            "topic2-task3-formulation13"
-          ],
-          "answer": [
-            "topic2-task3-answer1",
-            "topic2-task3-answer2",
-            "topic2-task3-answer3"
-          ],
-          "solutionLink": "topic2-task3-solutionLink"
+          "title": "Билеты",
+          "formulation": "В сборнике билетов по истории всего 25 билетов, в 5 из них встречается вопрос по теме \"Александр Второй\". Найдите вероятность того, что в случайно выбранном на экзамене билете школьнику не достанется вопроса по теме \"Александр Второй\".\n",
+          "answer": "topic1-task3-answer1",
+          "solutionLink": "topic1-task3-solutionLink"
         }
       ]
     },
     {
-      "title": "Topic 3",
+      "title": "Тема 3",
       "tasks": [
         {
-          "title": "Topic 3 Task 1",
-          "formulation": [
-            "topic3-task1-formulation11",
-            "topic3-task1-formulation12",
-            "topic3-task1-formulation13"
-          ],
-          "answer": [
-            "topic3-task1-answer1",
-            "topic3-task1-answer2",
-            "topic3-task1-answer3"
-          ],
-          "solutionLink": "topic3-task1-solutionLink"
+          "title": "Механические часы",
+          "formulation": "Механические часы с двенадцатичасовым циферблатом в какой-то момент сломались и перестали идти. Найдите вероятность того, что часовая стрелка остановилась, достигнув отметки 4, но не дойдя до отметки 7 часов.\n",
+          "answer": "topic1-task3-answer1",
+          "solutionLink": "topic1-task3-solutionLink"
         },
         {
-          "title": "Topic 3 Task 2",
-          "formulation": [
-            "topic3-task2-formulation11",
-            "topic3-task2-formulation12",
-            "topic3-task2-formulation13"
-          ],
-          "answer": [
-            "topic3-task2-answer1",
-            "topic3-task2-answer2",
-            "topic3-task2-answer3"
-          ],
-          "solutionLink": "topic3-task2-solutionLink"
+          "title": "Жребий",
+          "formulation": "Перед началом волейбольного матча капитаны команд тянут честный жребий, чтобы определить, какая из команд начнёт игру с мячом. Команда «Стартер» по очереди играет с командами «Протор», «Ротор» и «Мотор». Найдите вероятность того, что «Стартер» будет начинать только вторую и последнюю игры.\n",
+          "answer": "topic1-task3-answer1",
+          "solutionLink": "topic1-task3-solutionLink"
         },
         {
-          "title": "Topic 3 Task 3",
-          "formulation": [
-            "topic3-task3-formulation11",
-            "topic3-task3-formulation12",
-            "topic3-task3-formulation13"
-          ],
-          "answer": [
-            "topic3-task3-answer1",
-            "topic3-task3-answer2",
-            "topic3-task3-answer3"
-          ],
-          "solutionLink": "topic3-task3-solutionLink"
+          "title": "от 30 до 54",
+          "formulation": "Из множества натуральных чисел от 30 до 54 наудачу выбирают одно число. Какова вероятность того, что оно делится на 2?",
+          "answer": "topic1-task3-answer1",
+          "solutionLink": "topic1-task3-solutionLink"
         }
       ]
     }

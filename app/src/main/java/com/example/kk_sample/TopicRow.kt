@@ -7,10 +7,12 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.ArrowForward
 import androidx.compose.material3.Text
@@ -21,6 +23,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -28,31 +31,38 @@ import androidx.compose.ui.unit.sp
 import com.example.kk_sample.ui.theme.KKsampleTheme
 
 @Composable
-fun TopicRow(topic: Topic) {
+fun TopicRow(
+    topic: Topic,
+    onTaskClick: (Task) -> Unit = { }
+) {
 
     var expanded by remember { mutableStateOf(true) }
 
     Column(modifier = Modifier
-        .padding(horizontal = 24.dp, vertical = 12.dp)
-        .border(width = 1.dp, color = Color.Red)
+        .fillMaxWidth()
+        .padding(12.dp)
+        .clip(RoundedCornerShape(6))
+        .background(Color.White)
     ) {
         Text(
             text = topic.title,
             fontSize = 24.sp,
             modifier = Modifier
-                .padding(vertical = 8.dp)
+                .padding(start = 12.dp, end = 12.dp, top = 24.dp, bottom = 24.dp)
                 .clickable(onClick = { expanded = !expanded })
         )
 
         if (expanded) {
             topic.tasks.forEach {
                 Text(
-                    text = it.title,
+                    text = "‣ " + it.title,
                     fontSize = 18.sp,
                     modifier = Modifier
-                        .padding(start = 32.dp, bottom = 8.dp)
+                        .padding(start = 24.dp, end = 24.dp, top = 0.dp, bottom = 8.dp)
+                        .clickable { onTaskClick(it) }
                 )
             }
+            Spacer(modifier = Modifier.height(8.dp))
         }
     }
 
@@ -68,14 +78,14 @@ fun TopicRowPreview() {
                 tasks = listOf(
                     Task(
                         title = "Task",
-                        formulation = listOf(),
-                        answer = listOf(),
+                        formulation = "formulation",
+                        answer = "answer",
                         solutionLink = "solutionLink"
                     ),
                     Task(
                         title = "Task",
-                        formulation = listOf(),
-                        answer = listOf(),
+                        formulation = "formulation",
+                        answer = "answer",
                         solutionLink = "solutionLink"
                     )
                 )
