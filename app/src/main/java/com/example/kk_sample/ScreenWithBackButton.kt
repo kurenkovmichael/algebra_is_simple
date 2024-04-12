@@ -29,7 +29,7 @@ fun ScreenWithBackButton(
         IconButton(
             onClick = onBackClick,
             modifier = Modifier
-                .padding(24.dp)
+                .padding(32.dp)
                 .align(Alignment.BottomStart)
         ) {
             Icon(

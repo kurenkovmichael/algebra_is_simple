@@ -47,7 +47,7 @@ fun TopicsScreen(
                 modifier = Modifier.fillMaxWidth(),
             )
             Text(
-                text = "Николай Куренков",
+                text = "Николай Куренков 10А",
                 fontSize = 24.sp,
                 textAlign = TextAlign.Center,
                 modifier = Modifier.fillMaxWidth(),

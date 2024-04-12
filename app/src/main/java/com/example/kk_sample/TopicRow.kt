@@ -48,7 +48,7 @@ fun TopicRow(
             text = topic.title,
             fontSize = 24.sp,
             modifier = Modifier
-                .padding(start = 12.dp, end = 12.dp, top = 24.dp, bottom = 24.dp)
+                .padding(all = 24.dp)
                 .clickable(onClick = { expanded = !expanded })
         )
 
@@ -62,7 +62,7 @@ fun TopicRow(
                         .clickable { onTaskClick(it) }
                 )
             }
-            Spacer(modifier = Modifier.height(8.dp))
+            Spacer(modifier = Modifier.height(16.dp))
         }
     }
 

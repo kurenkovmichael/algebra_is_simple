@@ -20,11 +20,3 @@ data class Task(
     val answer: String,
     val solutionLink: String
 )
-
-//fun Task.formulationDrawble(context: android.content.Context) =
-//    formulation.map { getDrawble(name = it, context = context) }
-//
-//fun Task.getDrawble(name: String, context: android.content.Context): Drawable? {
-//    val id = context.resources.getIdentifier(name, "drawable", context.packageName)
-//    return context.getDrawable(id)
-//}
